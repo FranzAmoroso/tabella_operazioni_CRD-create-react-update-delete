@@ -1,0 +1,72 @@
+html{
+    background-color: rgb(8, 7, 7);
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+ 
+}
+span{
+    background-color: dimgray;
+    box-shadow: 3px  3px rgb(161, 1, 1) ;
+    margin: 5px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+}
+input[type=submit]{
+    background-color:  rgb(161, 1, 1) ;
+    margin: 0 25%;
+    box-shadow: 1px 2px 1px 2px #00000090;
+    border: 1px solid beige;
+    padding: 1vh;
+    display:grid;
+    font-style: italic;
+    border-radius: 50px 0px 50px 0px;
+    cursor: help;
+}
+
+p{
+    font-family: cursive;
+}
+.Header{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: dimgray;
+    box-shadow: 3px 3px rgb(161, 1, 1);
+}
+.data{
+    background-color: dimgray;
+    box-shadow: 1px 2px 1px 2px #00000150;
+    
+}
+.HT{
+    width: 10fr;
+    font-size:7fr;
+}
+.table1{
+    display: flex;
+    width: max-content;
+        background-color:grey;
+        box-shadow: 1px 2px 1px 2px #00000090;
+        margin: 5px;
+    }
+    button{
+        background-color:  rgb(161, 1, 1) ;
+    margin: 0 25%;
+    box-shadow: 1px 2px 1px 2px #00000090;
+    border: 1px solid beige;
+    padding: 1vh;
+    display:grid;
+    font-style: italic;
+    border-radius: 50px 0px 50px 0px;
+    cursor: pointer;
+    }
+
